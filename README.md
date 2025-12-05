@@ -1,2 +1,106 @@
-# File-Based-Chatbot
-An intelligent chatbot that responds exclusively based on the content of the files uploaded by the user. The system extracts information from the document and generates accurate answers without relying on any external sources.
+
+
+<img src="https://www.um.edu.sa/wp-content/uploads/2023/11/Logo_almaarefa_university-1.png" alt="Gemini" style="display: block; margin: 0 auto">
+
+# File-Based Chatbot
+
+*An intelligent chatbot that responds exclusively based on the content of the files uploaded by the user. The system extracts information from the document and generates accurate answers without relying on any external sources.*
+
+**Course:** *COMP 491 – Selected Topics*
+
+**Instructor:** *Dr. Mohammed Al Gabri*
+
+**Team Members:**
+
+- *Abdelrahman Abdelfattah – 221120284*
+- *Yazan Al alanzi – 221120003*
+- *Hamza Mater – 221120320*
+- *Mazyad Alrashidi – 231120078*
+- *Belal Al Sabagh - 221120282*
+
+## Team Contribution
+
+##### *The project was completed through joint teamwork, where all members collaborated naturally across the different stages of development. Tasks were shared, discussed, and implemented together, which means the final outcome reflects the collective effort of the entire team. Each member contributed to the project as part of a unified team working toward one goal.*
+
+## Project Description
+
+### This project aims to build a chatbot that depends entirely on user-uploaded files. The system performs the following:
+
+1. Reads and analyzes the content of the file (PDF, TXT, DOCX, etc.).
+2. Builds a knowledge context strictly from the uploaded file.
+3. Answers user questions accurately based on the document’s content.
+4. Avoids using any external information, ensuring reliability and precision.
+
+### Key Features
+
+- Responds only using information extracted from the uploaded file.
+- Supports multiple document formats.
+- Uses advanced AI techniques for text analysis.
+- Extracts relevant knowledge directly from the provided document.
+- Simple and user-friendly Streamlit interface.
+- Results formatted in tables, JSON, Markdown, HTML or plain text based on the user's request
+
+### Benefits of the System
+
+- All responses are derived strictly from the user’s file.
+- Helps users understand document content quickly.
+- Supports students, researchers, and professionals.
+
+### Technologies Used
+
+-   *Streamlit* – Interactive user interface
+-   *LangChain* – Framework for building agents and LLM-powered applications and Document processing and retrieval
+-   *Gemini 2.5 Flash* – AI model for answering and analysis
+-   *PyCharm* – Development environment
+
+
+
+
+## Getting Started
+We recommend VS Code or PyCharm for development. To install the the prerequistes:
+```javascript
+# 1. Download our latest release below.
+```
+###### https://github.com/ABNASS10/File-Based-Chatbot/releases
+```javascript
+# 2. Extract the .rar file, then run the 'start.py' file using your preferred development environment.
+```
+```javascript
+# 3. Download the latest requirements.txt below.
+```
+###### https://github.com/ABNASS10/File-Based-Chatbot/blob/main/requirements.txt
+```javascript
+# 4. Install the requirements.txt by running 'pip install' inside the terminal.
+```
+## Running the chatbot
+```javascript
+# 5. Simply run the streamlit program through the terminal using 'streamlit run (your-file-path/start.py)'.
+```
+
+
+
+**Streamlit**[^1] is a trademark of **Snowflake Inc.**[^2]
+**LangChain**[^3] is a trademark of **LangChain, Inc.**
+**Gemini™**[^4] is a trademark of **Google LLC**[^5].
+**PyCharm**[^6] and the **PyCharm logo** are trademarks of **JetBrains s.r.o**[^7]
+
+[^1]: https://streamlit.io/
+<img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" alt="Streamlit" width="100" height="90">
+
+[^2]: https://www.snowflake.com/en/
+<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/snowflake-color.png" alt="SnowFlake" width="40" height="40">
+
+[^3]:https://www.langchain.com/
+<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langchain-color.png" alt="LangChain" width="40" height="40">
+
+[^4]: https://gemini.google.com/
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/250px-Google_Gemini_icon_2025.svg.png" alt="Gemini" width="40" height="40">
+
+[^5]: https://www.google.com/
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/1175px-Google_Favicon_2025.svg.png" alt="Google Favicon" width="40" height="40">
+
+[^6]: https://www.jetbrains.com/pycharm/
+<img src="https://lp.jetbrains.com/static/upl/5154/2025/09/01/172017-0.9229018.png" alt="PyCharm" width="40" height="40">
+
+[^7]: https://www.jetbrains.com/
+<img src="https://awsmp-logos.s3.amazonaws.com/seller-xkdhzf5jgsuy4/71009ce8075e65640747902dbd4c05d2.png" alt="JetBrains" width="40" height="40">
