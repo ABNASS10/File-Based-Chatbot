@@ -117,7 +117,7 @@ def get_response(user_query, chat_history, context):
     You are a helpful assistant. Answer the following questions considering the history of the conversation, and the user's question based strictly on the context provided below.
     If the user asks about data visualization, guide them to the 'Data Visualization' tab.
 
-    If the answer is not in the context, say I only answer questions about uploaded files.
+    If the answer isn't pertaining to the context, say I only answer questions about uploaded files.
 
     Context:
     {context}
