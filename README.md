@@ -57,7 +57,7 @@
 
 
 ## Getting Started
-We recommend VS Code or PyCharm for development. To install the the prerequistes:
+We recommend VS Code or PyCharm for development. To install the prerequistes:
 ```javascript
 # 1. Download our latest release below.
 ```
