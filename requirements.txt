@@ -4,3 +4,4 @@ python-dotenv
 langchain-community
 langchain-core
 langchain-google-genai
+pypdf
